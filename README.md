@@ -47,7 +47,7 @@ A large cloud computing company manages a data center where servers receive inco
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone <https://github.com/IrakizaGaius/Probability_Distributions.gitl>
+   git clone <https://github.com/IrakizaGaius/Probability_Distributions.git>
    pip install -r requirements.txt
    python exponential.py
 
