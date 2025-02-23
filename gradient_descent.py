@@ -23,7 +23,7 @@ def compute_gradients(m, b, X, Y):
     return d_m, d_b
 
 # Gradient Descent function to optimize m and b
-def gradient_descent(X, Y, m_init=-1, b_init=1, learning_rate=0.1, max_iter=1000, tolerance=1e-3):
+def gradient_descent(X, Y, m_init=-1, b_init=1, learning_rate=0.1, max_iter=1000, tolerance=1e-5):
     """
     Performs gradient descent to find the optimal values of m and b for linear regression.
 
